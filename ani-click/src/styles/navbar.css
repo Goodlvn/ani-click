@@ -1,0 +1,30 @@
+nav {
+    background-color: #3a3a3a;
+    padding: 5px;
+    color: white;
+    font-family: 'Goldman', cursive;
+    font-size: 2vw;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: inline-grid;
+    place-items: center;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
