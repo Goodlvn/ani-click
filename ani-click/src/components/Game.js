@@ -1,10 +1,25 @@
 import React from "react";
+import ImageCard from "./ImageCard"
 import "../styles/game.css"
 
 function Game() {
     return(
-        <div className="gameContainer">
-        </div>
+        <div>
+            <div className="gameContainer">
+            <ImageCard url="./images/mob.jpg" />
+            <ImageCard url="./images/mob.jpg" />
+            <ImageCard url="./images/mob.jpg" />
+            <ImageCard url="./images/mob.jpg" />
+            <ImageCard url="./images/mob.jpg" />
+            <ImageCard url="./images/mob.jpg" />
+            <ImageCard url="./images/mob.jpg" />
+            <ImageCard url="./images/mob.jpg" />
+            <ImageCard url="./images/mob.jpg" />
+            <ImageCard url="./images/mob.jpg" />
+            <ImageCard url="./images/mob.jpg" />
+            <ImageCard url="./images/mob.jpg" />
+             </div>
+        </div> 
     )
 }
 
