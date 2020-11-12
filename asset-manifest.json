@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ani-click/static/css/main.681d78d2.chunk.css",
+    "main.js": "/ani-click/static/js/main.d6a87806.chunk.js",
+    "main.js.map": "/ani-click/static/js/main.d6a87806.chunk.js.map",
+    "runtime-main.js": "/ani-click/static/js/runtime-main.6d497b8a.js",
+    "runtime-main.js.map": "/ani-click/static/js/runtime-main.6d497b8a.js.map",
+    "static/js/2.1e9c7284.chunk.js": "/ani-click/static/js/2.1e9c7284.chunk.js",
+    "static/js/2.1e9c7284.chunk.js.map": "/ani-click/static/js/2.1e9c7284.chunk.js.map",
+    "index.html": "/ani-click/index.html",
+    "static/css/main.681d78d2.chunk.css.map": "/ani-click/static/css/main.681d78d2.chunk.css.map",
+    "static/js/2.1e9c7284.chunk.js.LICENSE.txt": "/ani-click/static/js/2.1e9c7284.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d497b8a.js",
+    "static/js/2.1e9c7284.chunk.js",
+    "static/css/main.681d78d2.chunk.css",
+    "static/js/main.d6a87806.chunk.js"
+  ]
+}
