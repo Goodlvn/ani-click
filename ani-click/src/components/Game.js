@@ -1,23 +1,16 @@
 import React from "react";
-import ImageCard from "./ImageCard"
 import "../styles/game.css"
 
-function Game() {
+
+
+// const cardComponents = cardData.map(card => <Card key={card.id} url={card.url} scorePoints={props.this} />)
+
+function Game(props) {
+
     return(
         <div>
             <div className="gameContainer">
-            <ImageCard url="./images/mob.jpg" />
-            <ImageCard url="./images/mob.jpg" />
-            <ImageCard url="./images/mob.jpg" />
-            <ImageCard url="./images/mob.jpg" />
-            <ImageCard url="./images/mob.jpg" />
-            <ImageCard url="./images/mob.jpg" />
-            <ImageCard url="./images/mob.jpg" />
-            <ImageCard url="./images/mob.jpg" />
-            <ImageCard url="./images/mob.jpg" />
-            <ImageCard url="./images/mob.jpg" />
-            <ImageCard url="./images/mob.jpg" />
-            <ImageCard url="./images/mob.jpg" />
+                {props.children}
              </div>
         </div> 
     )

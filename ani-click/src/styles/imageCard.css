@@ -1,10 +1,11 @@
 img {
     width: 175px;
     margin: 0;
+    cursor: pointer;
 }
 
 .cardContainer {
-    border: 8px solid #000000;
+    border: 8px solid #FFFFFF;
     width: fit-content;
     height: 175px;
     margin: 0;

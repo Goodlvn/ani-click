@@ -1,15 +1,13 @@
 import React from "react";
 import "../styles/imageCard.css";
 
-function ImageCard(props){
-
-    console.log(props);
+function Card(props){
 
     return (
         <div className="cardContainer">
-            <img src={props.url}/>
+            <img src={props.url} onClick={() => props.scorePoints(props.id)}/>
         </div>
     )
 }
 
-export default ImageCard;
+export default Card;

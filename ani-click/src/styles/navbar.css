@@ -4,6 +4,9 @@ nav {
     color: white;
     font-family: 'Goldman', cursive;
     font-size: 2vw;
+    position: fixed;
+    width: 100vw;
+    top: 0;
 }
 
 ul {
@@ -27,4 +30,30 @@ ul {
 .item3 {
     grid-column-start: 3;
     grid-column-end: 4;
+}
+
+.correct {
+    animation: correct 0.8s;
+}
+
+.wrong {
+    animation: wrong 0.8s;
+}
+
+@keyframes correct {
+    from {
+        color: green;
+    }
+    to {
+        color: white;
+    }
+}
+
+@keyframes wrong {
+    from {
+        color: red;
+    }
+    to {
+        color: white;
+    }
 }
